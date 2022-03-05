@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>to do list</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-3 mt-3">
+                <button type="button" class="btn btn-success" onclick="showCard()">Add Board</button>
+
+            <div class="card mt-3 d-none" id="card">
+                <div class="card-body">
+                    <textarea id="board-title" class="form-control" placeholder="type here..."></textarea>
+
+                    <button type="button" class="btn btn-success d-block ml-auto mt-3" onclick="addBoard()">add</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-9">
+            <div class="row" id="result"></div>
+        </div>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

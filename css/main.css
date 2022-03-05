@@ -1,0 +1,27 @@
+.task{
+    box-shadow: 0 0 10px springgreen;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.task-close{
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 12px;
+    background-color: #fff;
+    height: 12px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 13px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.completed{
+    background-color: lightgray;
+}
